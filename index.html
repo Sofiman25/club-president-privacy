@@ -1,62 +1,275 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-language="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Official website, privacy policy and data controls for Club President.">
-  <title>Club President — Official Website</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Club President is a football club ownership and tycoon game. Buy a club, manage transfers, finances, staff and facilities, and build a lasting football empire.">
+  <meta name="theme-color" content="#071a33">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Club President">
+  <meta property="og:title" content="Club President — Run the entire club">
+  <meta property="og:description" content="Buy a football club, shape the squad, control the finances and build a lasting legacy.">
+  <meta property="og:url" content="https://clubpresidentgame.com/">
+  <meta property="og:image" content="https://clubpresidentgame.com/assets/screenshots/dashboard.webp">
+  <meta property="og:image:width" content="1920">
+  <meta property="og:image:height" content="1080">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://clubpresidentgame.com/">
+  <link rel="icon" type="image/webp" href="assets/brand/club-president-emblem.webp">
+  <link rel="stylesheet" href="landing.css">
+  <title>Club President — Football Club Tycoon</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "name": "Club President",
+    "url": "https://clubpresidentgame.com/",
+    "image": "https://clubpresidentgame.com/assets/brand/club-president-emblem.webp",
+    "description": "A football club ownership and tycoon game where every transfer, financial decision and long-term strategy shapes the club's future.",
+    "operatingSystem": "Android",
+    "applicationCategory": "GameApplication",
+    "publisher": {"@type": "Organization", "name": "Sofiman"},
+    "installUrl": "https://play.google.com/store/apps/details?id=com.ertugrul.workdene"
+  }
+  </script>
 </head>
 <body>
-  <main class="card landing">
-    <p class="eyebrow">CLUB PRESIDENT</p>
+  <a class="skip-link" href="#main">
+    <span data-copy="en">Skip to content</span><span data-copy="tr">İçeriğe geç</span>
+  </a>
 
-    <h1>Build your football empire</h1>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Club President home">
+      <img src="assets/brand/club-president-emblem.webp" width="48" height="48" alt="">
+      <span>CLUB PRESIDENT</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#features"><span data-copy="en">Features</span><span data-copy="tr">Özellikler</span></a>
+      <a href="#gameplay"><span data-copy="en">Gameplay</span><span data-copy="tr">Oynanış</span></a>
+      <a href="#privacy"><span data-copy="en">Privacy</span><span data-copy="tr">Gizlilik</span></a>
+    </nav>
+    <div class="header-actions">
+      <div class="language-switcher" role="group" aria-label="Language">
+        <button type="button" data-language-button="en" aria-pressed="true">EN</button>
+        <button type="button" data-language-button="tr" aria-pressed="false">TR</button>
+      </div>
+      <a class="header-cta" href="https://play.google.com/store/apps/details?id=com.ertugrul.workdene" target="_blank" rel="noopener">
+        <span data-copy="en">Play now</span><span data-copy="tr">Şimdi oyna</span>
+      </a>
+    </div>
+  </header>
 
-    <p class="lead">
-      Club President is a mobile football club management and tycoon game.
-      Manage club finances, transfers, staff and facilities while competing
-      through multiple seasons.
-    </p>
+  <main id="main">
+    <section class="hero section" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span data-copy="en">FOOTBALL CLUB OWNERSHIP SIMULATION</span>
+          <span data-copy="tr">FUTBOL KULÜBÜ BAŞKANLIK SİMÜLASYONU</span>
+        </p>
+        <h1>
+          <span data-copy="en">Don't just manage the team. <strong>Run the entire club.</strong></span>
+          <span data-copy="tr">Sadece takımı değil, <strong>kulübün tamamını yönet.</strong></span>
+        </h1>
+        <p class="hero-lead">
+          <span data-copy="en">Buy a club, build the squad, control the finances, hire the right staff and turn every season into a lasting football legacy.</span>
+          <span data-copy="tr">Bir kulüp satın al, kadronu kur, finansı kontrol et, doğru personeli seç ve her sezonu kalıcı bir futbol mirasına dönüştür.</span>
+        </p>
+        <div class="hero-actions">
+          <a class="primary-button" href="https://play.google.com/store/apps/details?id=com.ertugrul.workdene" target="_blank" rel="noopener">
+            <span class="play-mark" aria-hidden="true">▶</span>
+            <span><small>Google Play</small><b data-copy="en">Download the game</b><b data-copy="tr">Oyunu indir</b></span>
+          </a>
+          <a class="secondary-button" href="#gameplay">
+            <span data-copy="en">See the game</span><span data-copy="tr">Oyunu keşfet</span><span aria-hidden="true">↓</span>
+          </a>
+        </div>
+        <ul class="hero-points" aria-label="Game highlights">
+          <li><span aria-hidden="true">✓</span><span data-copy="en">Buy a club</span><span data-copy="tr">Kulüp satın al</span></li>
+          <li><span aria-hidden="true">✓</span><span data-copy="en">Build a squad</span><span data-copy="tr">Kadronu kur</span></li>
+          <li><span aria-hidden="true">✓</span><span data-copy="en">Balance the books</span><span data-copy="tr">Bütçeyi yönet</span></li>
+          <li><span aria-hidden="true">✓</span><span data-copy="en">Chase trophies</span><span data-copy="tr">Kupaların peşinden git</span></li>
+        </ul>
+      </div>
 
-    <section>
-      <h2>Google Play Games</h2>
-      <p>
-        Club President uses Google Play Games Services to sign players in,
-        unlock achievements and synchronize supported game progress through
-        cloud saves. Google account and Play Games data is used only to provide
-        these features. More information is available in our Privacy Policy.
-      </p>
+      <div class="hero-visual" aria-label="Club President dashboard screenshot">
+        <div class="hero-glow"></div>
+        <div class="device-frame">
+          <div class="device-bar"><span></span><span></span><span></span></div>
+          <img src="assets/screenshots/dashboard.webp" width="1920" height="1080" alt="Club President dashboard showing the next match, league table, facilities and technical staff" fetchpriority="high">
+        </div>
+        <div class="floating-card floating-card-top">
+          <b data-copy="en">Every week matters</b><b data-copy="tr">Her hafta önemli</b>
+          <span data-copy="en">Results, money and morale move together.</span><span data-copy="tr">Sonuç, para ve moral birlikte değişir.</span>
+        </div>
+        <div class="floating-card floating-card-bottom">
+          <b data-copy="en">You are the president</b><b data-copy="tr">Başkan sensin</b>
+          <span data-copy="en">The final decision is always yours.</span><span data-copy="tr">Son karar her zaman senin.</span>
+        </div>
+      </div>
     </section>
 
-    <h2>Privacy &amp; data controls</h2>
+    <section class="proof-strip" aria-label="Game scope">
+      <div><strong>15</strong><span data-copy="en">football nations</span><span data-copy="tr">futbol ülkesi</span></div>
+      <div><strong>4</strong><span data-copy="en">league levels per nation</span><span data-copy="tr">ülke başına lig seviyesi</span></div>
+      <div><strong>360°</strong><span data-copy="en">club control</span><span data-copy="tr">kulüp kontrolü</span></div>
+      <div><strong>∞</strong><span data-copy="en">career stories</span><span data-copy="tr">kariyer hikâyesi</span></div>
+    </section>
 
-    <nav class="link-grid" aria-label="Privacy documents">
-      <a class="action" href="privacy-policy.html">
-        <strong>Privacy Policy</strong>
-        <span>English</span>
+    <section class="section features-section" id="features">
+      <div class="section-heading">
+        <p class="eyebrow"><span data-copy="en">YOUR CLUB. YOUR DECISIONS.</span><span data-copy="tr">SENİN KULÜBÜN. SENİN KARARLARIN.</span></p>
+        <h2><span data-copy="en">Own the decisions other manager games leave out.</span><span data-copy="tr">Diğer menajer oyunlarının sana bırakmadığı kararları sen ver.</span></h2>
+        <p>
+          <span data-copy="en">Club President is built around consequences. A big signing can change a season — or break the budget that must fund the next one.</span>
+          <span data-copy="tr">Club President sonuçları olan kararlar üzerine kurulu. Büyük bir transfer sezonu değiştirebilir — ya da gelecek sezonun bütçesini tüketebilir.</span>
+        </p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-index">01</span>
+          <h3><span data-copy="en">Buy and build</span><span data-copy="tr">Satın al ve büyüt</span></h3>
+          <p><span data-copy="en">Choose the right club for your capital, invest in facilities and grow its value over many seasons.</span><span data-copy="tr">Sermayene uygun kulübü seç, tesislere yatırım yap ve değerini sezonlar boyunca büyüt.</span></p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-index">02</span>
+          <h3><span data-copy="en">Work the market</span><span data-copy="tr">Transfer pazarını yönet</span></h3>
+          <p><span data-copy="en">Scout targets, negotiate transfers, use loans and free agents, and protect the balance of your squad.</span><span data-copy="tr">Oyuncu izle, transfer pazarlığı yap, kiralık ve serbest oyuncuları kullan, kadro dengesini koru.</span></p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-index">03</span>
+          <h3><span data-copy="en">Control the money</span><span data-copy="tr">Paranın kontrolünü elinde tut</span></h3>
+          <p><span data-copy="en">Track wages, match income, sponsorships, loans and facility costs before ambition becomes debt.</span><span data-copy="tr">Hırs borca dönüşmeden önce maaşları, maç gelirini, sponsorluğu, kredileri ve tesis giderlerini izle.</span></p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-index">04</span>
+          <h3><span data-copy="en">Build a legacy</span><span data-copy="tr">Bir miras bırak</span></h3>
+          <p><span data-copy="en">Climb league pyramids, fight for domestic cups, enter Europe and build a president career worth remembering.</span><span data-copy="tr">Liglerde yüksel, yerel kupalara ve Avrupa'ya uzan, hatırlanacak bir başkanlık kariyeri kur.</span></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section gameplay-section" id="gameplay">
+      <article class="spotlight">
+        <div class="spotlight-copy">
+          <p class="eyebrow"><span data-copy="en">THE BOARDROOM HAS CONSEQUENCES</span><span data-copy="tr">YÖNETİM KURULUNDA HER KARARIN BEDELİ VAR</span></p>
+          <h2><span data-copy="en">See the whole club at a glance.</span><span data-copy="tr">Kulübün tamamını tek bakışta gör.</span></h2>
+          <p><span data-copy="en">League position, fixtures, facilities, staff quality, club value and weekly cash flow meet on one decision-first dashboard.</span><span data-copy="tr">Lig sırası, fikstür, tesisler, personel kalitesi, kulüp değeri ve haftalık nakit akışı karar odaklı tek panelde birleşir.</span></p>
+          <ul class="detail-list">
+            <li><span data-copy="en">Upgrade six core club facilities</span><span data-copy="tr">Altı temel kulüp tesisini geliştir</span></li>
+            <li><span data-copy="en">Hire specialists with different strengths and costs</span><span data-copy="tr">Farklı güç ve maliyette uzmanlar işe al</span></li>
+            <li><span data-copy="en">React to the next match without losing the long view</span><span data-copy="tr">Uzun vadeyi kaybetmeden sıradaki maça hazırlan</span></li>
+          </ul>
+        </div>
+        <a class="screenshot-frame" href="assets/screenshots/dashboard.webp" target="_blank" aria-label="Open dashboard screenshot">
+          <img src="assets/screenshots/dashboard.webp" width="1920" height="1080" alt="Club President club dashboard" loading="lazy">
+        </a>
+      </article>
+
+      <article class="spotlight spotlight-reverse">
+        <div class="spotlight-copy">
+          <p class="eyebrow"><span data-copy="en">EVERY TRANSFER IS A TRADE-OFF</span><span data-copy="tr">HER TRANSFER BİR TERCİHTİR</span></p>
+          <h2><span data-copy="en">Build the squad without breaking the club.</span><span data-copy="tr">Kulübü batırmadan kadroyu güçlendir.</span></h2>
+          <p><span data-copy="en">Compare age, contract, value, wage and ability. Scouting uncertainty means the most expensive answer is not always the smartest one.</span><span data-copy="tr">Yaş, sözleşme, değer, maaş ve gücü karşılaştır. Scout belirsizliği yüzünden en pahalı cevap her zaman en akıllı cevap değildir.</span></p>
+          <ul class="detail-list">
+            <li><span data-copy="en">Transfer, loan and free-agent routes</span><span data-copy="tr">Transfer, kiralık ve serbest oyuncu seçenekleri</span></li>
+            <li><span data-copy="en">Watchlists, scouting and detailed filters</span><span data-copy="tr">Takip listesi, scout ve ayrıntılı filtreler</span></li>
+            <li><span data-copy="en">Contracts and wages that affect future seasons</span><span data-copy="tr">Gelecek sezonları etkileyen sözleşmeler ve maaşlar</span></li>
+          </ul>
+        </div>
+        <a class="screenshot-frame" href="assets/screenshots/transfer-market.webp" target="_blank" aria-label="Open transfer market screenshot">
+          <img src="assets/screenshots/transfer-market.webp" width="1920" height="1080" alt="Club President transfer market" loading="lazy">
+        </a>
+      </article>
+    </section>
+
+    <section class="section gallery-section" aria-labelledby="gallery-title">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow"><span data-copy="en">REAL GAMEPLAY</span><span data-copy="tr">GERÇEK OYNANIŞ</span></p>
+        <h2 id="gallery-title"><span data-copy="en">See the game before you play.</span><span data-copy="tr">Oynamadan önce oyunu gör.</span></h2>
+        <p><span data-copy="en">These are real screenshots captured from Club President — not concept art.</span><span data-copy="tr">Bunlar konsept görseller değil, Club President içinden alınmış gerçek ekranlardır.</span></p>
+      </div>
+      <div class="gallery-grid">
+        <a class="gallery-card" href="assets/screenshots/live-match.webp" target="_blank">
+          <img src="assets/screenshots/live-match.webp" width="1920" height="1080" alt="Live match screen with lineups, score and match commentary" loading="lazy">
+          <span><b data-copy="en">Live match centre</b><b data-copy="tr">Canlı maç merkezi</b><small data-copy="en">Lineups, ratings, statistics and commentary</small><small data-copy="tr">Kadrolar, puanlar, istatistikler ve anlatım</small></span>
+        </a>
+        <a class="gallery-card" href="assets/screenshots/finance.webp" target="_blank">
+          <img src="assets/screenshots/finance.webp" width="1920" height="1080" alt="Finance screen showing club income and expenses" loading="lazy">
+          <span><b data-copy="en">Club finances</b><b data-copy="tr">Kulüp finansı</b><small data-copy="en">Revenue, wages, debt and cash flow</small><small data-copy="tr">Gelir, maaş, borç ve nakit akışı</small></span>
+        </a>
+        <a class="gallery-card" href="assets/screenshots/squad.webp" target="_blank">
+          <img src="assets/screenshots/squad.webp" width="1920" height="1080" alt="Squad screen with player values, contracts and performance" loading="lazy">
+          <span><b data-copy="en">Squad planning</b><b data-copy="tr">Kadro planlaması</b><small data-copy="en">Value, form, contracts and depth</small><small data-copy="tr">Değer, form, sözleşme ve derinlik</small></span>
+        </a>
+        <a class="gallery-card" href="assets/screenshots/president-hub.webp" target="_blank">
+          <img src="assets/screenshots/president-hub.webp" width="1920" height="1080" alt="President hub showing competitions from multiple football nations" loading="lazy">
+          <span><b data-copy="en">President career</b><b data-copy="tr">Başkanlık kariyeri</b><small data-copy="en">Trophies, history, rankings and achievements</small><small data-copy="tr">Kupalar, geçmiş, sıralamalar ve başarımlar</small></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section play-games-section" id="privacy">
+      <div class="play-games-card">
+        <div class="play-games-icon" aria-hidden="true">▶</div>
+        <div>
+          <p class="eyebrow">GOOGLE PLAY GAMES</p>
+          <h2><span data-copy="en">Keep your progress. Protect your career.</span><span data-copy="tr">İlerlemeni koru. Kariyerini yanında taşı.</span></h2>
+          <p><span data-copy="en">Club President uses Google Play Games Services for player sign-in, achievements and supported cloud-save backup and restore. Authentication is handled by Google; Club President does not receive your Google password.</span><span data-copy="tr">Club President; oyuncu girişi, başarımlar ve desteklenen bulut kayıtlarını yedekleyip geri yüklemek için Google Play Games Hizmetlerini kullanır. Kimlik doğrulama Google tarafından yapılır; Club President Google şifrenizi almaz.</span></p>
+          <div class="privacy-links">
+            <a href="privacy-policy.html"><span data-copy="en">Privacy Policy</span><span data-copy="tr">Gizlilik Politikası (EN)</span></a>
+            <a href="privacy-policy-tr.html"><span data-copy="en">Turkish Privacy Policy</span><span data-copy="tr">Türkçe Gizlilik Politikası</span></a>
+            <a href="data-deletion.html"><span data-copy="en">Delete my data</span><span data-copy="tr">Verilerimi sil</span></a>
+            <a href="kvkk-aydinlatma-metni.html">KVKK</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <img src="assets/brand/club-president-emblem.webp" width="132" height="132" alt="Club President emblem" loading="lazy">
+      <div>
+        <p class="eyebrow"><span data-copy="en">YOUR CLUB IS WAITING</span><span data-copy="tr">KULÜBÜN SENİ BEKLİYOR</span></p>
+        <h2><span data-copy="en">Make the decisions. Own the consequences.</span><span data-copy="tr">Kararları ver. Sonuçların sahibi ol.</span></h2>
+      </div>
+      <a class="primary-button" href="https://play.google.com/store/apps/details?id=com.ertugrul.workdene" target="_blank" rel="noopener">
+        <span class="play-mark" aria-hidden="true">▶</span>
+        <span><small>Google Play</small><b data-copy="en">Play Club President</b><b data-copy="tr">Club President'ı oyna</b></span>
       </a>
-
-      <a class="action" href="privacy-policy-tr.html">
-        <strong>Gizlilik Politikası</strong>
-        <span>Türkçe</span>
-      </a>
-
-      <a class="action" href="data-deletion.html">
-        <strong>Delete my data</strong>
-        <span>Verilerimi sil</span>
-      </a>
-
-      <a class="action" href="kvkk-aydinlatma-metni.html">
-        <strong>KVKK Aydınlatma Metni</strong>
-        <span>Türkçe</span>
-      </a>
-    </nav>
-
-    <p class="footer">
-      Support and privacy contact:
-      <a href="mailto:sofimandev@gmail.com">sofimandev@gmail.com</a>
-    </p>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="assets/brand/club-president-emblem.webp" width="42" height="42" alt="">
+      <div><strong>CLUB PRESIDENT</strong><span>© 2026 Sofiman</span></div>
+    </div>
+    <nav aria-label="Legal links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="privacy-policy-tr.html">Gizlilik Politikası</a>
+      <a href="data-deletion.html">Data Deletion</a>
+      <a href="kvkk-aydinlatma-metni.html">KVKK</a>
+      <a href="mailto:sofimandev@gmail.com">Support</a>
+    </nav>
+  </footer>
+
+  <script>
+    (() => {
+      const buttons = document.querySelectorAll('[data-language-button]');
+      const titles = {en: 'Club President — Football Club Tycoon', tr: 'Club President — Futbol Kulübü Başkanlık Oyunu'};
+      const setLanguage = (language) => {
+        const next = language === 'tr' ? 'tr' : 'en';
+        document.documentElement.dataset.language = next;
+        document.documentElement.lang = next;
+        document.title = titles[next];
+        buttons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.languageButton === next)));
+        try { localStorage.setItem('club-president-language', next); } catch (_) {}
+      };
+      buttons.forEach((button) => button.addEventListener('click', () => setLanguage(button.dataset.languageButton)));
+      let saved = null;
+      try { saved = localStorage.getItem('club-president-language'); } catch (_) {}
+      const browserLanguage = navigator.language && navigator.language.toLowerCase().startsWith('tr') ? 'tr' : 'en';
+      setLanguage(saved || browserLanguage);
+    })();
+  </script>
 </body>
 </html>
